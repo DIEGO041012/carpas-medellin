@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    background-color:hsl(0, 50%, 45%);
+  }
+  /* narvar */
+  body{
+    margin:0;
+    background-color:hsl(0, 50%, 45%)
+  }
+  
+  #navbar{
+    text-align:center;
+    background-color:hsla(0,0%,0%,50%);
+    position:absolute;
+    width:100%;
+  }
+  
+  #navbar>a{
+    color:white;
+    font-family:sans-sarif;
+    font-size:24px;
+    margin:15px 30px;
+    display:inline-block;
+  }
+  
+  @media(max-width:710px){
+    #navbar>a{
+      margin:10px;
+    }
+  }
+  
+  @media(max-width:550px){
+    #navbar>a{
+      font-size:16px;
+    }
+  }
+  
+  @media(max-width:400px){
+    #navbar>a{
+      display:block;
+    }
+  }
+  /* jumbotron */
+  body {
+    margin: 0;
+    background: hsl(0, 50%, 45%);
+  }
+  
+  #jumbotron {
+    width: 100%;
+    height: 100vh;
+    position: relitive;
+  }
+  
+  #jumbotron > img {
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #jumbotron > h1 {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 140px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 96px;
+  }
+  
+  #overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 50% 40%);
+  }
+  
+  @media (max-width: 730px) {
+    #jumbotron > h1 {
+      text-align: center;
+      left: 50%;
+      margin-left: -300px;
+    }
+  }
+  
+  @media (max-width: 610px) {
+    #jumbotron > h1 {
+      font-size: 50px;
+      width: 300px;
+      margin-left: -150px;
+    }
+  }
+  .titulo{
+    text-align: center;
+  }
+ 
+  /* image gallery */
+  body{
+    margin:0;
+    background:hsl(0, 50%, 45%);
+  }
+  
+  #gallery{
+    text-align:center;
+    max-width:1024px;
+    margin:auto;
+    overflow:hidden;
+    display:inline-block;
+  }
+  
+  #gallery>figure{
+    background-color:#1a231c;
+    display:inline-block;
+    margin:5px;
+  }
+  #gallery>figure>img{
+    width:280px;
+    height:200px;
+    object-fit:cover;
+  }
+  #gallery>figure>figcaption{
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+  }
+  
+  @media(max-width: 600px){
+    #gallery>figure>img{
+      width:90vm;
+    }
+  }
+  /* contect */
+  body{
+    margin:0;
+    background: linear-gradient(to right,#949494, #CB1414 );
+  }
+  
+  .contect{
+    color:hsl(0,0%,88%);
+  }
+  
+  .contect>h1>h2>h3>h4>h5>h6{
+    text-align:center;
+  }
+  
+  .contect>p{
+    max-width:800px;
+    margin:10px auto;
+    line-height:24px;
+  }
+  
+  .contect>img{
+    display:block;
+    max-width:500px;
+    margin:15px auto;
+  }
+  
+  .contect>iframe{
+    display:block;
+    margin:0 auto;
+    max-width:80%;
+  }
+  h2{
+    text-align:center
+  }
